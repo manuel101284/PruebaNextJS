@@ -1,0 +1,39 @@
+nav{
+    display: flex;   
+}
+
+nav a{
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 4px;
+    border:  solid black 1px;
+    border-radius: 8px;
+    background-color:  #1e1e1e;
+    color: white;
+}
+
+nav a:hover{
+    color: #1e1e1e;
+    background-color: #eeeeee;
+}
+
+.caja{
+    width: 50%;
+    border: solid 3px black;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: top; 
+}
+
+.persons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    font-family: var(--mifont);
+}
